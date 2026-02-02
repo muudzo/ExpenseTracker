@@ -59,14 +59,56 @@ static List<Expense> expenses = new List<Expense>();
             switch (input)
             {
                 case "1":
-                    Console.WriteLine("Add expense - coming soon");
-                    Pause(); // Wait so the user can read the message
-                    break;
+                    case "1":
+    Console.Write("Enter amount: ");
+    decimal amount;
+    while (!decimal.TryParse(Console.ReadLine(), out amount))
+    {
+        Console.Write("Invalid number. Enter amount again: ");
+    }
+
+    Console.Write("Enter category: ");
+    string category = Console.ReadLine();
+
+    Console.Write("Enter description: ");
+    string description = Console.ReadLine();
+
+    DateTime date = DateTime.Now; // Record the current date/time
+
+    // Create an Expense object and add to the list
+    Expense newExpense = new Expense
+    {
+        Amount = amount,
+        Category = category,
+        Description = description,
+        Date = date
+    };
+
+    expenses.Add(newExpense);
+
+    Console.WriteLine("Expense added successfully!");
+    Pause();
+    break;
+
+
 
                 case "2":
-                    Console.WriteLine("View expenses - coming soon");
-                    Pause();
-                    break;
+                   case "2":
+    if (expenses.Count == 0)
+    {
+        Console.WriteLine("No expenses recorded yet.");
+    }
+    else
+    {
+        Console.WriteLine("==== All Expenses ====");
+        foreach (var exp in expenses)
+        {
+            Console.WriteLine($"{exp.Date.ToShortDateString()} | {exp.Category} | {exp.Description} | ${exp.Amount}");
+        }
+    }
+    Pause();
+    break;
+
 
                 case "3":
                     Console.WriteLine("Monthly total - coming soon");
