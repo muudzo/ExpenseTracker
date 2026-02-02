@@ -1,0 +1,14 @@
+/Users/michaelnyemudzo/ExpenseTracker/bin/Debug/net10.0/ExpenseTracker
+/Users/michaelnyemudzo/ExpenseTracker/bin/Debug/net10.0/ExpenseTracker.deps.json
+/Users/michaelnyemudzo/ExpenseTracker/bin/Debug/net10.0/ExpenseTracker.runtimeconfig.json
+/Users/michaelnyemudzo/ExpenseTracker/bin/Debug/net10.0/ExpenseTracker.dll
+/Users/michaelnyemudzo/ExpenseTracker/bin/Debug/net10.0/ExpenseTracker.pdb
+/Users/michaelnyemudzo/ExpenseTracker/obj/Debug/net10.0/ExpenseTracker.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelnyemudzo/ExpenseTracker/obj/Debug/net10.0/ExpenseTracker.AssemblyInfoInputs.cache
+/Users/michaelnyemudzo/ExpenseTracker/obj/Debug/net10.0/ExpenseTracker.AssemblyInfo.cs
+/Users/michaelnyemudzo/ExpenseTracker/obj/Debug/net10.0/ExpenseTracker.csproj.CoreCompileInputs.cache
+/Users/michaelnyemudzo/ExpenseTracker/obj/Debug/net10.0/ExpenseTracker.dll
+/Users/michaelnyemudzo/ExpenseTracker/obj/Debug/net10.0/refint/ExpenseTracker.dll
+/Users/michaelnyemudzo/ExpenseTracker/obj/Debug/net10.0/ExpenseTracker.pdb
+/Users/michaelnyemudzo/ExpenseTracker/obj/Debug/net10.0/ExpenseTracker.genruntimeconfig.cache
+/Users/michaelnyemudzo/ExpenseTracker/obj/Debug/net10.0/ref/ExpenseTracker.dll
