@@ -2,10 +2,28 @@
 
 // This is the main class of the application.
 // Every C# console program starts execution inside a class.
+// Represents a single expense entry
+
+
+class Expense
+{
+    public decimal Amount { get; set; }       // How much money was spent
+    public string Category { get; set; }      // Category like Food, Transport
+    public string Description { get; set; }   // Short note
+    public DateTime Date { get; set; }        // Date of the expense
+}
+
 class Program
 {
+    
+    // List to store all expenses in memory
+static List<Expense> expenses = new List<Expense>();
+
+    
     // Main is the entry point of the program.
     // When you run `dotnet run`, this method is called first.
+    
+    
     static void Main()
     {
         RunMenu(); // Start the menu loop
